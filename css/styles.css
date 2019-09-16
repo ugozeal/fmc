@@ -1,0 +1,63 @@
+/*=================================
+| | | | | | Default Themes | | | | | |
+=====================================*/
+/*===================================
+font: Raleway and Open Sans 
+Colors:
+Moon Yellow: #f4c613
+Grey: #212226
+White Smoke: #f4f4f4
+White: #fff
+Black: #000
+===================================*/
+
+/*=================================
+| | | | | | HTML Body | | | | | |
+=====================================*/
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #212226;
+}
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+section {
+  background: #fff;
+  overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+#status {
+  background-image: url("../img/preloader/preloader.gif");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -35%;
+  margin-left: -35px;
+}
