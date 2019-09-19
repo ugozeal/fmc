@@ -64,7 +64,7 @@ $.ajax({
           <td>${elem.age}</td>
           <td>${elem.sickness}</td>
           <td>${elem.status}</td>
-          <td><input type="button" class="btn btn-dark btn-general" onclick="onePatient(${
+          <td><input type="button" class="btn btn-yellow btn-general" onclick="onePatient(${
             elem.id
           })" value="Edit">&nbsp; <input type="button" class="btn btn-general btn-outline-danger" onclick="deletePatient(${
         elem.id
