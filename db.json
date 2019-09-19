@@ -1,5 +1,39 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "patients": [
+    {
+      "name": "dave",
+      "email": "ben@yahoo.com",
+      "telephone": "7777777777777",
+      "age": "54",
+      "sickness": "Typhoid",
+      "status": "discharged",
+      "id": 2
+    },
+    {
+      "name": "dan",
+      "email": "onyedika@yahoo.com",
+      "telephone": "+2348039682335",
+      "age": "50",
+      "sickness": "malaria",
+      "status": "discharged",
+      "id": 3
+    },
+    {
+      "name": "Isaac",
+      "email": "dannu@yahoo.com",
+      "telephone": "+2348039682335",
+      "age": "50",
+      "sickness": "Typhoid",
+      "status": "critical",
+      "id": 4
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "ugozeal",
+      "password": "decagon",
+      "level": 2
+    }
+  ]
 }

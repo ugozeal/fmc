@@ -1,3 +1,38 @@
+/*================================
+| | | | | | Navigation | | | | | |
+=====================================*/
+// Show and hide white nav bar
+$(function() {
+  // Show/hide nav on page load
+  showHideNav();
+
+  $(window).scroll(function() {
+    // Show/hide nav on page scroll
+    showHideNav();
+  });
+
+  function showHideNav() {
+    if ($(window).scrollTop() > 50) {
+      // Show white nav bar
+      $("nav").addClass("white-nav-top");
+
+      // Show back to top btn
+      $("#back-to-top").fadeIn();
+
+      // Show dark logo
+      $(".navbar-brand img").attr("src", "img/logo/log_dark.png");
+    } else {
+      $("nav").removeClass("white-nav-top");
+
+      // Show normal logo
+      $(".navbar-brand img").attr("src", "img/logo/logo_light.png");
+
+      // Hide back to top btn
+      $("#back-to-top").fadeOut();
+    }
+  }
+});
+
 /*===================================
 | | | | | | PreLoader | | | | | |
 =====================================*/
@@ -75,43 +110,6 @@ $(window).on("load", function() {
   $("#home-text").addClass("animated zoomIn");
   $("#home-btn").addClass("animated zoomIn");
   $("#arrow-down i").addClass("animated fadeInDown infinite");
-});
-
-/*=================================
-| | | | | | Navigation | | | | | |
-=====================================*/
-// Show and hide white nav bar
-$(function() {
-  // Show/hide nav on page load
-  showHideNav();
-
-  $(window).scroll(function() {
-    // Show/hide nav on page scroll
-    showHideNav();
-  });
-
-  function showHideNav() {
-    if ($(window).scrollTop() > 50) {
-      // Show white nav bar
-      $("nav").addClass("white-nav-top");
-
-      // Show back to top btn
-      $("#back-to-top").fadeIn();
-
-      // Show dark logo
-      $(".navbar-brand img").attr("src", "img/logo/log_dark.png");
-      $(".navbar-brand img").attr("src", "../img/logo/log_dark.png");
-    } else {
-      $("nav").removeClass("white-nav-top");
-
-      // Show normal logo
-      $(".navbar-brand img").attr("src", "img/logo/logo_light.png");
-      $(".navbar-brand img").attr("src", "../img/logo/logo_light.png");
-
-      // Hide back to top btn
-      $("#back-to-top").fadeOut();
-    }
-  }
 });
 
 // Smooth Scrolling

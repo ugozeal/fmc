@@ -20,22 +20,443 @@
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Responsive Tabs CSS -->
+    <link rel="stylesheet" href="css/responsive-tabs/responsive-tabs.min.css">
+
+    <!-- Magnific PopUp -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.min.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
     <title>FMC Management System</title>
   </head>
   <body>
+    <!-- Preloader Starts -->
     <section id="preloader">
       <di id="status">&nbsp;</div>
     </section>
+    <!-- Preloader Ends -->
+
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="site-nav-wrapper">
+              <div class="navbar-header">
+                <!-- Mobile Menu Open Button -->
+                <span id="mobile-nav-open-btn">&#9776;</span>
+                <!-- Logo -->
+                <a href="#home" class="navbar-brand">
+                    <img class="smooth-scroll" src="img/logo/logo_light.png" alt="logo">
+                </a>
+              </div>
+              <!-- Main Menu -->
+              <div class="container">
+                <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav pull-right">
+                    <li><a href="#home" class="smooth-scroll">Home</a></li>
+                    <li><a href="pages/about.html" >About</a></li>
+                    <li><a href="#services" class="smooth-scroll">Services</a></li>
+                    <li><a href="#partners" class="smooth-scroll">Partners</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/login.html">Admin Login</a></li>
+                  </ul>
+                  
+
+                </div>
+
+              </div>
+
+              <!-- Mobile Menu -->
+              <div id="mobile-nav">
+                <!-- Mobile Menu Close Button -->
+                <span id="mobile-nav-close-btn">&times;</span>
+                <div id="mobile-nav-content">
+                  <ul class="nav">
+                    <li><a href="#home" class="smooth-scroll">Home</a></li>
+                    <li><a href="pages/about.html" >About</a></li>
+                    <li><a href="#services" class="smooth-scroll">Services</a></li>
+                    <li><a href="#partners" class="smooth-scroll">Partners</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/login.html">Admin Login</a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Home -->
+    <section id="home">
+      <!-- Background Video -->
+      <video id="home-bg-video" autoplay loop muted>
+        <source src="video/hospital.mp4" type="video/mp4">
+      </video>
+    
+
+    <!-- Overlay -->
+      <div id="home-overlay"></div>
+
+    <!-- Home Content -->
+      <div id="home-content">
+        <div id="home-content-inner" class="text-center">
+          <div id="home-heading">
+            <h1 id="home-heading-1">Federal</h1><br>
+            <h1 id="home-heading-2">Medical <span>Center</span></h1>
+          </div>
+
+          <div id="home-text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At consequuntur vitae 
+            repellendus soluta fugit aliquid</p>
+          </div>
+        
+        </div>
+      </div>
+
+      <!-- Arrow Down -->
+      <a href="#about" id="arrow-down" class="smooth-scroll">
+        <i class="fa fa-angle-down"></i>
+      </a>
+    </section>
+    <!-- Home Ends -->
+
+    <!-- Services Section -->
+    <section id="services">
+
+      <!-- Services-01 -->
+      <div>
+        <div id="services-01">
+          <div class="content-box-lg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center wow slideInDown">
+                  <div class="horizontal-heading">
+                    <h5>What We Do</h5>
+                    <h2>Our <strong>Services</strong></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-7 col-sm-7 wow slideInLeft">
+                  <img src="img/services/care.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-5 col-sm-5 wow slideInRight">
+                  <!-- Service 01 -->
+                  <div class="service">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <div class="icon text-right">
+                          <i class="fa fa-database"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-10 col-sm-10">
+                        <h5>Services 01</h5>
+                        <h4>DataBase Management</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                          Aspernatur enim, nisi explicabo rem rerum ratione iusto quo, 
+                          natus libero veritatis ipsam possimus voluptate vero. Pariatur
+                           consectetur non cupiditate sequi natus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Services 02 -->
+                  <div class="service">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <div class="icon text-right">
+                          <i class="fa fa-stethoscope"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-10 col-sm-10">
+                        <h5>Services 02</h5>
+                        <h4>Regular Checkups</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                          Aspernatur enim, nisi explicabo rem rerum ratione iusto quo, 
+                          natus libero veritatis ipsam possimus voluptate vero. Pariatur
+                           consectetur non cupiditate sequi natus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Services 03 -->
+                  <div class="service">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <div class="icon text-right">
+                          <i class="fa fa-ambulance"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-10 col-sm-10">
+                        <h5>Services 03</h5>
+                        <h4>Ambulace Service &#38; Quick Response</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                          Aspernatur enim, nisi explicabo rem rerum ratione iusto quo, 
+                          natus libero veritatis ipsam possimus voluptate vero. Pariatur
+                           consectetur non cupiditate sequi natus.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section  Ends-->
+
+    
+    <!-- Statement Section -->
+    <section id="statement">
+      <div class="content-box-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 wow fadeIn">
+              <div id="tech-statement" class="text-center">
+                <h3><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi optio dolorem minus laboriosa<br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis  <i class="fa fa-quote-right"></i>
+                </h3>
+                <p>- David Okonkwo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Statement Section Ends -->
+
+   <!-- Empty Section -->
+   <section>
+      <div class="content-box-lg"></div>
+     
+   </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 wow slideInLeft">
+            <div class="vertical-heading">
+              <h5>Who We Are</h5>
+              <h2>What Our <br> <strong>Customers</strong> Say</h2>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-8 wow fadeIn" data-wow-duration="2s">
+            <div id="testimonial-slider" class="owl-carousel owl-theme">
+              <!-- Testimonial 01 -->
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <h3>Quality Support</h3>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="stars text-right">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere neque molestias, quas ducimus iure
+                maiores corporis magni veniam debitis in aliquid sapiente omnis tenetur suscipit voluptatibus</p>
+                <div class="author">
+                  <div class="row">
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                      <img src="img/customers/client-1.jpg" alt="client" class="img-responsive img-circle">
+                    </div>
+                    <div class="col-md-10 col-sm-3 col-xs-6">
+                      <div class="author-name-des">
+                        <p>Joe Martin</p>
+                        <p>CEO/National Hospita</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonial 02 -->
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <h3>Quality Support</h3>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="stars text-right">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere neque molestias, quas ducimus iure
+                maiores corporis magni veniam debitis in aliquid sapiente omnis tenetur suscipit voluptatibus</p>
+                <div class="author">
+                  <div class="row">
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                      <img src="img/customers/client-2.jpg" alt="client" class="img-responsive img-circle">
+                    </div>
+                    <div class="col-md-10 col-sm-3 col-xs-6">
+                      <div class="author-name-des">
+                        <p>Joe Martin</p>
+                        <p>CEO/National Hospita</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonial 03 -->
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <h3>Quality Support</h3>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="stars text-right">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere neque molestias, quas ducimus iure
+                maiores corporis magni veniam debitis in aliquid sapiente omnis tenetur suscipit voluptatibus</p>
+                <div class="author">
+                  <div class="row">
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                      <img src="img/customers/client-3.jpg" alt="client" class="img-responsive img-circle">
+                    </div>
+                    <div class="col-md-10 col-sm-3 col-xs-6">
+                      <div class="author-name-des">
+                        <p>Joe Martin</p>
+                        <p>CEO/National Hospita</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section Ends -->
+
+    <!-- Partners Section -->
+    <section id="partners">
+      <div class="content-box-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="horizontal-heading">
+                <h5>Amazing</h5>
+                <h2>Our Great <strong>Partners</strong></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row wow bounceInLeft" data-wow-duration="2s" dat-wow-delay=".5s">
+            <div class="col-md-12">
+              <div id="partners-list" class="owl-carousel owl-theme">
+                <!-- Partner 01 -->
+                <div class="partner">
+                  <img src="img/partners/carehos-logo.jpg" alt="partner-01" class="img-responsive">
+                </div>
+                <!-- Partner 02 -->
+                <div class="partner">
+                  <img src="img/partners/damavand-logo.jpg" alt="partner-02" class="img-responsive">
+                </div>
+                <!-- Partner 03 -->
+                <div class="partner">
+                  <img src="img/partners/doctoaz-logo.jpg" alt="partner-03" class="img-responsive">
+                </div>
+                <!-- Partner 04 -->
+                <div class="partner">
+                  <img src="img/partners/klinik-logo.jpg" alt="partner-04" class="img-responsive">
+                </div>
+                <!-- Partner 05 -->
+                <div class="partner">
+                  <img src="img/partners/client-5.png" alt="partner-05" class="img-responsive">
+                </div>
+                <!-- Partner 06 -->
+                <div class="partner">
+                  <img src="img/partners/client-6.png" alt="partner-06" class="img-responsive">
+                </div>
+                <!-- Partner 07 -->
+                <div class="partner">
+                  <img src="img/partners/client-7.png" alt="partner-07" class="img-responsive">
+                </div>
+                <!-- Partner 01 -->
+                <div class="partner">
+                  <img src="img/partners/client-8.png" alt="partner-08" class="img-responsive">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Partners Section Ends -->
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2019 All Rights Reserved by <span>FMC</span></p>
+            <p>Designed by David U. Okonkwo</p>
+          </div>
+        </div>
+      </div>
+      <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll" role="button"
+      title="back-to-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    </footer>
+    <!-- Footer Section -->
+    
+
+    
+
 
     <!-- JQuery.js -->
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap.js -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Way Points -->
+    <script src="js/waypoints/jquery.waypoints.min.js"></script>
+    <!-- Isotope -->
+    <script src="js/isotope/isotope.pkgd.min.js"></script>
+    <!-- Magnific PopUp -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up -->
+    <script src="js/counter-up/jquery.counterup.min.js"></script>
+    <!-- Easing Plugin -->
+    <script src="js/easing/jquery.easing.1.3.min.js"></script>
+    <!-- Wow -->
+    <script src="js/wow/wow.min.js"></script>
     <!-- Axios -->
     <script src="./node_modules/axios/dist/axios.js"></script>
+    <!-- Custom2 JS -->
+    <script src="js/custom2.js"></script>
     <!-- Custom JS -->
-    <script src="js/custom.js"></script>
+    <!-- <script src="js/custom.js"></script> -->
   </body>
 </html>
