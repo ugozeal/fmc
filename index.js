@@ -120,7 +120,7 @@ $("#search-form").on("submit", function(e) {
           <td>${age}</td>
           <td>${sickness}</td>
           <td>${status}</td>
-          <td><input type="button" class="btn btn- btn-general" onclick="onePatient(${id})" value="Edit">&nbsp; <input type="button" class="btn btn-danger btn-general" onclick="deletePatient(${id})" value="delete"> </td>
+          <td><input type="button" class="btn btn-yellow btn-general" onclick="onePatient(${id})" value="Edit">&nbsp; <input type="button" class="btn btn-danger btn-general" onclick="deletePatient(${id})" value="delete"> </td>
       </tr>
           `);
       // alert("Exist");
