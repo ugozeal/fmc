@@ -184,6 +184,12 @@ section {
   font-size: 22px;
   display: none;
 }
+.btn-dark {
+  color: #fff;
+  border: 1px solid #212226;
+  background-color: #212226;
+}
+
 
 /*=================================
 | | | | | | Arrow Down | | | | | |

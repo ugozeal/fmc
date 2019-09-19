@@ -64,9 +64,9 @@ $.ajax({
           <td>${elem.age}</td>
           <td>${elem.sickness}</td>
           <td>${elem.status}</td>
-          <td><input type="button" class="btn btn-primary btn-general" onclick="onePatient(${
+          <td><input type="button" class="btn btn-dark btn-general" onclick="onePatient(${
             elem.id
-          })" value="Edit">&nbsp; <input type="button" class="btn btn-danger btn-general" onclick="deletePatient(${
+          })" value="Edit">&nbsp; <input type="button" class="btn btn-general btn-outline-danger" onclick="deletePatient(${
         elem.id
       })" value="delete"> </td>
       </tr>`
@@ -120,7 +120,7 @@ $("#search-form").on("submit", function(e) {
           <td>${age}</td>
           <td>${sickness}</td>
           <td>${status}</td>
-          <td><input type="button" class="btn btn-primary btn-general" onclick="onePatient(${id})" value="Edit">&nbsp; <input type="button" class="btn btn-danger btn-general" onclick="deletePatient(${id})" value="delete"> </td>
+          <td><input type="button" class="btn btn- btn-general" onclick="onePatient(${id})" value="Edit">&nbsp; <input type="button" class="btn btn-danger btn-general" onclick="deletePatient(${id})" value="delete"> </td>
       </tr>
           `);
       // alert("Exist");
