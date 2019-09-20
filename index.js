@@ -48,7 +48,8 @@ $(document).ready(() => {
   });
 });
 
-//READ ALL PATIENTS
+//READ ALL PATIENTS USING GET METHOD,
+//CALL UP THE EDIT AND DELETE FUNCTION
 $.ajax({
   url: "http://localhost:3000/patients",
   method: "get"
@@ -67,9 +68,7 @@ $.ajax({
           <td><input type="button" class="btn btn-yellow btn-general" onclick="onePatient(${
             elem.id
           })" value="Edit">&nbsp; <input type="button" class="btn btn-general btn-outline-danger" 
-          onclick="deletePatient(${
-        elem.id
-      })" value="delete"> </td>
+          onclick="deletePatient(${elem.id})" value="delete"> </td>
       </tr>`
     );
   });
@@ -224,7 +223,7 @@ function deletePatient(i) {
     url: "http://localhost:3000/patients/" + i,
     method: "delete"
   }).done(resp => {
-    console.log("Deleted");
+    alert("Deleted");
   });
 }
 
